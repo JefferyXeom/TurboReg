@@ -154,15 +154,6 @@ Download the processed 3DMatch correspondences from [MAC++](https://github.com/z
 ```sh
 DIR_3DMATCH_FPFH_FCGF
 .
-├── 3DLoMatch
-│   ├── all_fcgf
-│   │   ├── 7-scenes-redkitchen_3dlomatch
-│   │   ├── ...
-│   │   └── sun3d-mit_lab_hj-lab_hj_tea_nov_2_2012_scan1_erika_3dlomatch
-│   └── all_fpfh
-│       ├── 7-scenes-redkitchen_3dlomatch
-│       ├── ...
-│       └── sun3d-mit_lab_hj-lab_hj_tea_nov_2_2012_scan1_erika_3dlomatch
 ├── 3DMatch
 │   ├── all_fcgf
 │       ├── 7-scenes-redkitchen
