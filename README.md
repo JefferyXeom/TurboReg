@@ -70,9 +70,10 @@ Here's a general comparison of TurboReg with existing methods:
 
 ### Python API
 
-TurboReg can be installed in a Python environment. The only required dependency is **PyTorch**:
+Create a Python virtual environment and install PyTorch (with CUDA support):
 
 ```bash
+# Python Enviroment
 git clone https://github.com/Laka-3DV/TurboReg.git
 cd TurboReg
 
@@ -83,11 +84,13 @@ pip install open3d tyro
 
 # Install PyTorch (select the appropriate version for your CUDA setup from https://pytorch.org/)
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+````
+Install TurboReg by running:
 
-# Install TurboReg
+```bash
 cd bindings
 pip install .
-````
+```
 
 You can try TurboReg with just a few lines of code:
 
