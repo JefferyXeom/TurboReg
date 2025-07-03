@@ -70,7 +70,7 @@ Here's a general comparison of TurboReg with existing methods:
 
 ### Python API
 
-> NOTE: The Python API is a thin wrapper around the C++ core using PyBind11, offering C++-level performance within Python.
+> Note: The Python API of TurboReg is implemented in C++ and exposed via PyBind11, offering C++-level performance within Python.
 
 Create a Python virtual environment and install PyTorch (with CUDA support):
 
