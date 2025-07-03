@@ -92,6 +92,7 @@ Install TurboReg by running:
 ```bash
 cd bindings
 pip install .
+cd ..
 ```
 
 You can try TurboReg with just a few lines of code:
