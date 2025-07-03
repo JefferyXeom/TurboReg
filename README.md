@@ -79,6 +79,8 @@ cd TurboReg
 conda create -n turboreg python=3.11
 conda activate turboreg
 
+pip install open3d tyro
+
 # Install PyTorch (select the appropriate version for your CUDA setup from https://pytorch.org/)
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
