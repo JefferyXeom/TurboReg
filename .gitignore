@@ -1,0 +1,24 @@
+# Build
+build/
+build_/
+*.so
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# PyTorch
+*.pt
+
+# TMP
+creadme.md
+TMP/
+tmp/
+tmp.py
+
+turboreg_python
