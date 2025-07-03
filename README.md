@@ -147,7 +147,7 @@ make -j8
 
 ---
 
-## Experiment Reproduction
+## 🧪 Experiment Reproduction
 
 Download the processed 3DMatch correspondences from [MAC++](https://github.com/zhangxy0517/MAC-PLUS-PLUS?tab=readme-ov-file#datasets). Expected folder structure:
 
@@ -174,7 +174,7 @@ python -m demo_py.exp_3dmatch --desc fcgf --dataname 3DMatch --dir_dataset "DIR_
 ```
 
 
-## Registration Performance (RR ↑, RE ↓, TE ↓, FPS ↑)
+## 📈 Registration Performance (RR ↑, RE ↓, TE ↓, FPS ↑)
 
 
 <div align="center">
@@ -192,7 +192,7 @@ python -m demo_py.exp_3dmatch --desc fcgf --dataname 3DMatch --dir_dataset "DIR_
 
 </div>
 
-## Citation
+## 📖 Citation
 
 If you find this code useful for your work or use it in your project, please consider citing:
 ```
