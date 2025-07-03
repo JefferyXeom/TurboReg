@@ -134,9 +134,7 @@ python o3d_fpfh.py
 #### 🔧 Dependencies
 
 * CMake ≥ 3.10
-* Eigen3
-* pybind11 (for Python bindings)
-* LibTorch (from your Python environment)
+* LibTorch (No independent installation required; use directly within your Python virtual environment (i.e., turboreg))
 
 > GPU version uses **LibTorch** from the Python virtual environment.
 > For CPU version, you can refer to [`./turboreg_cpu/`](./turboreg_cpu/) (TBD).
