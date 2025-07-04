@@ -21,7 +21,7 @@
   <a href="https://ljy-rs.github.io/web/">Jiayuan Li</a><sup>†</sup>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2505.04788">
+  <a href="https://arxiv.org/abs/2507.01439">
     <img src="./assets/pipeline.png" alt="Teaser" width=70%>
   </a>
   <br>
