@@ -11,8 +11,12 @@ include_dirs = [
     osp.join(ROOT_DIR, "./turboreg/include")
 ]
 
-# eigen_include_dir = os.environ.get("EIGEN3_INCLUDE_DIR", "/usr/include/eigen3")
-eigen_include_dir = os.environ.get("EIGEN3_INCLUDE_DIR", "H:\\Visual_Studio_Workspace\\vcpkg-clion\\vcpkg\\packages\\eigen3_x64-windows\\include")
+import platform
+if platform.system() == "Windows":
+    eigen_include_dir = os.environ.get("EIGEN3_INCLUDE_DIR", "H:\\Visual_Studio_Workspace\\vcpkg-clion\\vcpkg\\packages\\eigen3_x64-windows\\include")
+else:
+    eigen_include_dir = os.environ.get("EIGEN3_INCLUDE_DIR", "/usr/include/eigen3")
+
 if eigen_include_dir:
     include_dirs.append(eigen_include_dir)
 
